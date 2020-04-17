@@ -32,7 +32,7 @@ hi Comment term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 
 hi FoldColumn term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
 hi Folded term=NONE cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
 hi LineNr term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#af8700 guibg=NONE
-hi NonText term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
+hi NonText term=NONE cterm=NONE ctermfg=bg ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
 hi SignColumn term=NONE cterm=NONE ctermfg=240 ctermbg=bg gui=NONE guifg=#585858 guibg=bg
 hi SpecialKey term=NONE cterm=NONE ctermfg=240 ctermbg=bg gui=NONE guifg=#585858 guibg=bg
 hi StatusLineNC term=NONE cterm=NONE ctermfg=fg ctermbg=195 gui=NONE guifg=fg guibg=#d7ffff
@@ -55,7 +55,7 @@ hi MoreMsg term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5f005f g
 hi PmenuSel term=NONE cterm=NONE ctermfg=bg ctermbg=13 gui=NONE guifg=fg guibg=#ff00ff
 hi Question term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5f005f guibg=NONE
 hi StatusLine term=NONE cterm=NONE ctermbg=183 ctermfg=fg gui=NONE guifg=white guibg=#000000
-hi Todo term=NONE cterm=NONE ctermfg=1 ctermbg=NONE gui=NONE guifg=#008000 guibg=NONE
+hi Todo term=NONE cterm=NONE ctermfg=13 ctermbg=NONE gui=NONE guifg=#008000 guibg=NONE
 hi WarningMsg term=NONE cterm=NONE ctermfg=9 ctermbg=white gui=NONE guifg=#ff5555 guibg=white
 hi WildMenu term=NONE cterm=NONE ctermbg=fg ctermfg=183 gui=NONE guifg=#000000 guibg=white
 hi Visual term=NONE cterm=NONE ctermfg=fg ctermbg=222 gui=NONE guifg=NONE guibg=#ffd787
@@ -63,9 +63,9 @@ hi VisualNOS term=underline cterm=underline ctermfg=fg ctermbg=222 gui=underline
 
 " Reversed
 hi PmenuSbar term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
-hi Pmenu term=reverse cterm=reverse ctermfg=136 ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
+hi Pmenu term=reverse cterm=reverse ctermfg=248 ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi PmenuThumb term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
-hi TabLineSel term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
+hi TabLineSel term=bold cterm=bold ctermfg=fg ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 
 " Diff
 hi DiffAdd term=NONE cterm=NONE ctermfg=2 ctermbg=NONE gui=NONE guifg=#008000 guibg=NONE
@@ -82,9 +82,9 @@ hi SpellRare term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline
 " Vim Features
 hi Menu term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Scrollbar term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi TabLineFill term=NONE cterm=NONE ctermfg=fg ctermbg=136 gui=NONE guifg=fg guibg=#af8700
-hi TabLine term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi Tooltip term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+hi TabLineFill term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=fg guibg=#af8700
+hi TabLine term=underline cterm=underline ctermfg=248 ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+hi Tooltip term=NONE cterm=NONE ctermfg=bg ctermbg=138 gui=NONE guifg=NONE guibg=NONE
 
 " Syntax Highsepiaing (or lack there of)
 hi Boolean term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
